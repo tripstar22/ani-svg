@@ -1,0 +1,32 @@
+
+.wrapBtns, .wrapOuterAni {
+	text-align: center;
+}
+
+.wrapBtns {
+	padding: 40px 15px 60px;
+}
+
+.wrapAni, svg, .shape {
+	width: 100%;
+}
+
+.wrapAni, svg {
+	max-width: 400px;
+}
+
+.wrapAni {
+	margin: 0 auto;
+}
+
+svg, .shape {
+	height: 400px;
+}
+
+.shape {
+	width: 100%;
+	fill: #D32F2F;
+	-webkit-transition: any 0.2s ease-in-out;
+	-moz-transition: any 0.2s ease-in-out;
+	transition: any 0.2s ease-in-out;
+}
